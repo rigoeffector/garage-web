@@ -105,7 +105,13 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i
+                    className="fa fa-map-marker"
+                    style={{
+                      color: "#92c53a",
+                    }}
+                  ></i>{" "}
+                  Address
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -113,7 +119,13 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i
+                    className="fa fa-phone"
+                    style={{
+                      color: "#92c53a",
+                    }}
+                  ></i>{" "}
+                  Phone
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -121,9 +133,30 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i
+                    className="fa fa-envelope-o"
+                    style={{
+                      color: "#92c53a",
+                    }}
+                  ></i>{" "}
+                  Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i
+                    className="fa fa-clock-o"
+                    style={{
+                      color: "#92c53a",
+                    }}
+                  ></i>{" "}
+                  Working Days
+                </span>{" "}
+                {props.data ? props.data.weekDays : "loading"} <br />
+                {props.data ? props.data.weekendDays : "loading"}
               </p>
             </div>
           </div>

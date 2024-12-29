@@ -152,7 +152,9 @@
     "email": "carzonerwandaltd@gmail.com",
     "facebook": "facebook.com/CarZoneLtd",
     "twitter": "twitter.com/CarZoneLtd",
-    "youtube": "youtube.com/CarZoneLtd"
+    "youtube": "youtube.com/CarZoneLtd",
+    "weekDays":"9am - 5pm Monday to Friday",
+    "weekendDays":"9am - 1pm Saturday"
   },
   "Features": [
     {

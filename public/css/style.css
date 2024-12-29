@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #161616;
+  background-color: #010101;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -635,8 +635,9 @@ header#header {
   }
 
   #menu a.navbar-brand img {
-    height: 40px !important;
-    width: 80px !important;
+    height: 45px !important;
+    width: 160px !important;
+    transform: translate(0%, -30%) !important;
 
   }
   .navbar-default .navbar-toggle {

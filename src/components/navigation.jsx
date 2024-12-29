@@ -25,9 +25,9 @@ export const Navigation = (props) => {
               onClick={handleLogin}
               src="/img/logo.jpeg"
               style={{
-                height: "60px",
                 borderRadius: "10px",
-                transform: "translate(0%, -30%)",
+                height: '86px',
+                transform: 'translate(0%, -42%)'
               }}
               alt="logo"
             />
