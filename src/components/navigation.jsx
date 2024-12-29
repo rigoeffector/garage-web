@@ -23,7 +23,7 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
               onClick={handleLogin}
-              src="/img/logo.jpeg"
+              src="/img/favio.png"
               style={{
                 borderRadius: "10px",
                 height: '86px',

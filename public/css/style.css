@@ -635,14 +635,13 @@ header#header {
   }
 
   #menu a.navbar-brand img {
-    height: 45px !important;
-    width: 160px !important;
-    transform: translate(0%, -30%) !important;
+    height: 58px !important;
+    transform: translate(0%, -37%) !important;
 
   }
   .navbar-default .navbar-toggle {
     border: 0px solid;
-    transform: translate(-35%, 5%) !important;
+    transform: translate(-35%, -22%) !important;
   }
   .intro h1 {
     font-size: 4rem;
