@@ -26,10 +26,9 @@ export const Navigation = (props) => {
            onClick={handleLogin}
            
            src="/img/logo.jpeg" style={{
-               height: '90px',
-               width: '180px',
-               borderRadius: '10px',
-               border: '1px solid #ddd'
+            height: '60px',
+            borderRadius: '10px',
+            transform: 'translate(0%, -30%)'
            }}/>
           </a>{" "}
         </div>
@@ -39,11 +38,11 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
+            {/* <li>
               <a href="#features" className="page-scroll">
-                Features
+              Mission to Vision
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#about" className="page-scroll">
                 About
@@ -54,21 +53,21 @@ export const Navigation = (props) => {
                 Services
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#team" className="page-scroll">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
                 Contact

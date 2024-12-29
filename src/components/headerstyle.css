@@ -1,35 +1,37 @@
-.intro {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    overflow: hidden;
+/* Add the following styles */
+@keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
   
-  .video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Keeps the video behind the content */
+  /* Apply animation to h1 and p */
+  .animate-left-to-right {
+    animation: slideFromLeft 1s ease-out forwards;
   }
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for better text readability */
-    z-index: 0;
+  /* Add a delay to the p tag to animate after h1 */
+  .animate-left-to-right:nth-child(2) {
+    animation-delay: 0.5s; /* Adjust delay as needed */
   }
   
-  .intro-text {
-    position: relative;
-    z-index: 1; /* Ensures text appears over the video and overlay */
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+  /* Optionally, you can add some transition styles for a smoother effect */
+  #header .intro-text {
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   

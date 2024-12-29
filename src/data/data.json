@@ -1,137 +1,127 @@
 {
   "Header": {
-    "title": "CarZone Ltd ",
-    "paragraph": "we protect your car"
+    "title": "CarZone Ltd",
+    "paragraph": "We protect your car"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Since opening our first location in 2024, we’ve grown into a national leader in automotive service. And we’ve stayed true to our mission of providing experienced, trustworthy automotive care and outstanding service every single day",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Expert Technicians",
+      "High-Quality Products",
+      "Affordable Pricing",
+      "Customer-Centric Approach"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Comprehensive Services",
+      "State-of-the-Art Equipment",
+      "Reliable and Trustworthy",
+      "Fast and Efficient Solutions"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Engine Maintenance",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Advanced Diagnostics",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Oil Change Service",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Brake System Check",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Suspension Repairs",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Car Interior Cleaning",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Tire Replacement",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Full Car Inspection",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Custom Repairs",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-tags",
-      "name": "Korean cars lube",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "/img/lube.png",
+      "name": "Korean Cars Lube",
+      "text": "Specialized lubrication services for Korean car models, ensuring optimal performance and engine longevity."
     },
     {
-      "icon": "fa fa-codiepie",
-      "name": "All cars lube",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "/img/all-car.png",
+      "name": "All Cars Lube",
+      "text": "High-quality lubrication solutions for all car makes and models."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "KIXX oil",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+     "icon": "/img/oil-drum.png",
+      "name": "KIXX Oil",
+      "text": "Premium KIXX oil changes tailored for modern engines, enhancing efficiency and durability."
     },
     {
-      "icon": "fa fa-language",
-      "name": "⁠Korean lubricant",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "/img/lube.png",
+      "name": "Korean Lubricant",
+      "text": "Top-tier lubricants specifically designed for Korean vehicles."
     },
     {
-      "icon": "fa fa-flask",
-      "name": "⁠Break pads",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+     "icon": "/img/disc-brake.png",
+      "name": "Brake Pads",
+      "text": "High-performance brake pads for safe and reliable stopping power."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Chock ⁠absobers",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "/img/suspension.png",
+      "name": "Shock Absorbers",
+      "text": "Quality shock absorbers to ensure a smooth and comfortable ride."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "korean turbo",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "/img/turbo.png",
+      "name": "Korean Turbo",
+      "text": "Professional turbo maintenance and repair services for Korean vehicles."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/man.png",
+      "text": "\"CarZone transformed my car's performance. Highly recommend their professional services!\"",
+      "name": "Emery Kirezi"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+     "img": "img/man.png",
+      "text": "\"Fast, efficient, and reliable. The best garage experience I've had!\"",
+      "name": "Manzi Nshuti Olivier"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+     "img": "img/man.png",
+      "text": "\"Great value for money and outstanding customer service.\"",
+      "name": "RUKUNDO Eric Lee"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/woman.png",
+      "text": "\"I trust CarZone for all my vehicle needs. They're simply the best!\"",
+      "name": "Sophia MUKAMWIZA"
     }
   ],
   "Team": [
@@ -142,48 +132,48 @@
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Mike Smith",
+      "job": "Lead Mechanic"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Jane Taylor",
+      "job": "Customer Service Manager"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Karen White",
+      "job": "Project Coordinator"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Kanogo, Near Alpine, KK 2 Avenue, Kigali",
+    "phone": "0788319835/0788323218",
+    "email": "carzonerwandaltd@gmail.com",
+    "facebook": "facebook.com/CarZoneLtd",
+    "twitter": "twitter.com/CarZoneLtd",
+    "youtube": "youtube.com/CarZoneLtd"
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Korean cars lube",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Korean Cars Lube",
+      "text": "Expert lubrication services tailored for Korean vehicle models."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "All cars lube",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "All Cars Lube",
+      "text": "Comprehensive lubrication solutions for all types of vehicles."
     },
     {
       "icon": "fa fa-group",
-      "title": "⁠KIXX oil",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "KIXX Oil",
+      "text": "Premium oil changes using trusted KIXX products."
     },
     {
       "icon": "fa fa-magic",
-      "title": "korean lubricant",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Korean Lubricant",
+      "text": "High-quality lubricants specially formulated for Korean cars."
     }
   ]
 }
