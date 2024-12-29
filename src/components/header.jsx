@@ -1,9 +1,19 @@
 import React from "react";
+import './headerstyle.css'
 
 export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
+        <video 
+          className="video-bg" 
+          autoPlay 
+          muted 
+          loop 
+        >
+          <source src="/img/1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="overlay">
           <div className="container">
             <div className="row">

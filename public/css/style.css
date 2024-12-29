@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #161616;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -90,7 +90,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #92c53a;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -166,8 +166,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #92c53a;
+  background-image: linear-gradient(to right, #92c53a 0%, #6372ff 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +184,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #92c53a;
 }
 .btn:active,
 .btn.active {
@@ -204,7 +204,7 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-.intro {
+/* .intro {
   display: table;
   width: 100%;
   padding: 0;
@@ -214,16 +214,16 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
+} */
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background:#000000ad
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #92c53a;
   font-size: 82px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -232,7 +232,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #abdeee;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -598,9 +598,17 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+header#header {
+  width: 100%;
+}
 
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
   }
+
+  #menu a.navbar-brand img {
+    height: 80px !important ;
+    width: 160px !important;
+}
 }

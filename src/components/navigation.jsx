@@ -1,6 +1,10 @@
 import React from "react";
 
 export const Navigation = (props) => {
+  const handleLogin = ()=>{
+    window.open("https://carzone.co.rw/", "_blank");
+
+  }
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -18,7 +22,15 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+           <img
+           onClick={handleLogin}
+           
+           src="/img/logo.jpeg" style={{
+               height: '90px',
+               width: '180px',
+               borderRadius: '10px',
+               border: '1px solid #ddd'
+           }}/>
           </a>{" "}
         </div>
 
