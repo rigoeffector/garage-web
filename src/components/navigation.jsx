@@ -1,10 +1,9 @@
 import React from "react";
 
 export const Navigation = (props) => {
-  const handleLogin = ()=>{
+  const handleLogin = () => {
     window.open("https://carzone.co.rw/", "_blank");
-
-  }
+  };
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -22,14 +21,16 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-           <img
-           onClick={handleLogin}
-           
-           src="/img/logo.jpeg" style={{
-            height: '60px',
-            borderRadius: '10px',
-            transform: 'translate(0%, -30%)'
-           }}/>
+            <img
+              onClick={handleLogin}
+              src="/img/logo.jpeg"
+              style={{
+                height: "60px",
+                borderRadius: "10px",
+                transform: "translate(0%, -30%)",
+              }}
+              alt="logo"
+            />
           </a>{" "}
         </div>
 

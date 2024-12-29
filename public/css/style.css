@@ -617,9 +617,16 @@ header#header {
 }
 
 @media (max-width: 375px) {
-header#header {
-  width: 111%;
-}
+  .intro {
+    display: table;
+    width: 111%;
+    padding: 0;
+    background: url(../img/main.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
 }
 
 @media (max-width: 768px) {
@@ -630,7 +637,7 @@ header#header {
   #menu a.navbar-brand img {
     height: 40px !important;
     width: 80px !important;
-    transform: translate(-18%, -20%) !important;
+
   }
   .navbar-default .navbar-toggle {
     border: 0px solid;

@@ -15,16 +15,18 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -130,19 +132,13 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={ ""}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
+                    <i className="fa fa-facebook"></i>
                   </li>
                   <li>
-                    <a href={ ""}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
+                    <i className="fa fa-twitter"></i>
                   </li>
                   <li>
-                    <a href={ "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
+                    <i className="fa fa-youtube"></i>
                   </li>
                 </ul>
               </div>
@@ -153,9 +149,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2024 CarZone Ltd  Design by{" "}
-            <a href="https://rigoninja.netlify.app/"  rel="nofollow">
-            RigoEffector Ninja
+            &copy; 2024 CarZone Ltd Design by{" "}
+            <a href="https://rigoninja.netlify.app/" rel="nofollow">
+              RigoEffector Ninja
             </a>
           </p>
         </div>
