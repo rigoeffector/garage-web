@@ -7,36 +7,48 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [loading, setLoading] = useState(false); // For loading indicator
+  const [successMessage, setSuccessMessage] = useState(""); // For success message
+  const [errorMessage, setErrorMessage] = useState(""); // For error message
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+    setLoading(true); // Start loading
+    setSuccessMessage("");
+    setErrorMessage("");
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_q9u68vc",
+        "template_n5t722z",
         e.target,
-        "YOUR_PUBLIC_KEY"
+        "zzAyPhERWmycjcTzZ"
       )
       .then(
         (result) => {
           console.log(result.text);
+          setLoading(false); // Stop loading
+          setSuccessMessage("Your message has been sent successfully!");
           clearState();
         },
         (error) => {
           console.log(error.text);
+          setLoading(false); // Stop loading
+          setErrorMessage("Failed to send the message. Please try again.");
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -94,12 +106,16 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                {loading && <p>Sending... <i className="fa fa-spinner fa-spin"></i></p>} {/* Loading indicator */}
+                <button type="submit" className="btn btn-custom btn-lg" disabled={loading}>
+                  {loading ? "Sending..." : "Send Message"}
                 </button>
               </form>
+              {successMessage && <p style={{ color: "green" }}>{successMessage}</p>}
+              {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
             </div>
           </div>
+          {/* Contact Info Section */}
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
@@ -144,22 +160,8 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i
-                    className="fa fa-clock-o"
-                    style={{
-                      color: "#92c53a",
-                    }}
-                  ></i>{" "}
-                  Working Days
-                </span>{" "}
-                {props.data ? props.data.weekDays : "loading"} <br />
-                {props.data ? props.data.weekendDays : "loading"}
-              </p>
-            </div>
           </div>
+          {/* Footer Section */}
           <div className="col-md-12">
             <div className="row">
               <div className="social">
