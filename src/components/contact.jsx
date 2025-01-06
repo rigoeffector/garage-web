@@ -9,7 +9,7 @@ const initialState = {
 };
 
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [, setState] = useState(initialState);
   const [loading, setLoading] = useState(false); // For loading indicator
   const [successMessage, setSuccessMessage] = useState(""); // For success message
   const [errorMessage, setErrorMessage] = useState(""); // For error message
@@ -106,12 +106,23 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                {loading && <p>Sending... <i className="fa fa-spinner fa-spin"></i></p>} {/* Loading indicator */}
-                <button type="submit" className="btn btn-custom btn-lg" disabled={loading}>
+                {loading && (
+                  <p>
+                    Sending... <i className="fa fa-spinner fa-spin"></i>
+                  </p>
+                )}{" "}
+                {/* Loading indicator */}
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  disabled={loading}
+                >
                   {loading ? "Sending..." : "Send Message"}
                 </button>
               </form>
-              {successMessage && <p style={{ color: "green" }}>{successMessage}</p>}
+              {successMessage && (
+                <p style={{ color: "green" }}>{successMessage}</p>
+              )}
               {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
             </div>
           </div>
@@ -158,6 +169,29 @@ export const Contact = (props) => {
                   Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i
+                    className="fa fa fa-clock-o"
+                    style={{
+                      color: "#92c53a",
+                    }}
+                  ></i>{" "}
+                  Working Days
+                </span>{" "}
+                <span
+                  style={{
+                    fontSize: "15px",
+                    fontWeight: 400,
+                  }}
+                >
+                  9 AM -  5 PM Monday 
+                  <br />
+                   9 AM - 1 PM Saturday
+                </span>
               </p>
             </div>
           </div>
