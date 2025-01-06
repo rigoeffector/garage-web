@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navigation = (props) => {
   const handleLogin = () => {
-    window.open("https://carzone.co.rw/", "_blank");
+    window.open("https://dashboard.carzone.co.rw/", "_blank");
   };
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -23,7 +23,7 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
               onClick={handleLogin}
-              src="/img/favio.png"
+              src="/img/logo.jpeg"
               style={{
                 borderRadius: "10px",
                 height: '86px',
